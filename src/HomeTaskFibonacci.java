@@ -6,7 +6,7 @@ public class HomeTaskFibonacci {
         for (int i = 0; i <11; i++){
             System.out.println(a);
             int c = a + b;
-            System.out.println("Iteration: " + c);
+//            System.out.println("Iteration: " + c);
             a = b;
             b = c;
         }
