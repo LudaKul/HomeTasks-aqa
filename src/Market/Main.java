@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
         MarketService marketServiceStore = new MarketService();
-        marketServiceStore.addStore("Samsung");
+        marketServiceStore.addStore("Nokia");
         marketServiceStore.addStore("FashionStore");
         marketServiceStore.addStore("ElectroWorld");
         marketServiceStore.addStore("HomeMarket");
         marketServiceStore.addStore("SportLife");
 
 
-        marketServiceStore.addProductToCatalog(new Product(1, "Headphones", 100, "Samsung", 20.50));
+        marketServiceStore.addProductToCatalog(new Product(1, "Headphones", 100, "Nokia", 20.50));
         marketServiceStore.addProductToCatalog(new Product(2, "Lamp", 300, "FashionStore", 12.50));
         marketServiceStore.addProductToCatalog(new Product(3, "Blender", 600, "FashionStore", 42.50));
         marketServiceStore.addProductToCatalog(new Product(4, "Chair", 200, "FashionStore", 72.50));
@@ -20,7 +20,7 @@ public class Main {
         marketServiceStore.addProductToCatalog(new Product(7, "Watches", 400, "ElectroWorld", 30.50));
         marketServiceStore.addProductToCatalog(new Product(8, "T-Shirt", 1800, "SportLife", 15.50));
         marketServiceStore.addProductToCatalog(new Product(9, "Sneakers", 2800, "FashionStore", 0.50));
-        marketServiceStore.addProductToCatalog(new Product(10, "Dress", 3800, "SportLife", 50.50));
+        marketServiceStore.addProductToCatalog(new Product(10, "Dress", 3800, "Nokia", 50.50));
 
         marketServiceStore.printAllProducts();
 
