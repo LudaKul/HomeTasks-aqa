@@ -39,7 +39,7 @@ public boolean containsStore(String storeName){
             product.setStore(storeName);
 
 }
-String[] listOfStores = {"HomeMarket", "HomeMarket", "ElectroWorld", "FashionStore", "SportLife"};
+String[] listOfStores = {"HomeMarket", "HomeMarket", "Nokia", "ElectroWorld", "FashionStore", "SportLife"};
 
 Object [][] productNeedToSort = {
         {11, "Dish"},
